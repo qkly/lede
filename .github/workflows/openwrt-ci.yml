@@ -155,7 +155,14 @@ jobs:
           CONFIG_PACKAGE_luci-app-firewall=y  #添加防火墙
           CONFIG_PACKAGE_luci-app-dnspod=y  #DNSPod
           CONFIG_PACKAGE_luci-app-ddns=y  #动态域名 DNS
+          CONFIG_PACKAGE_ddns-scripts_dnspod
+          CONFIG_PACKAGE_ddns-scripts_aliyun
           CONFIG_PACKAGE_luci-app-arpbind=y  #IP/MAC绑定
+          CONFIG_PACKAGE_luci-app-unblockmusic
+          CONFIG_PACKAGE_luci-app-openvpn=y
+          CONFIG_PACKAGE_luci-app-openvpn-server=y
+          CONFIG_PACKAGE_UnblockNeteaseMusic
+          CONFIG_PACKAGE_UnblockNeteaseMusicGo
           CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y  #DNSCrypt解决DNS污染
           CONFIG_PACKAGE_luci-app-dnscrypt-dnsforwarder=y  #DNSForwarder防DNS污染
           CONFIG_PACKAGE_luci-app-adbyby-plus=y  #广告屏蔽大师Plus +
@@ -166,6 +173,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
           CONFIG_PACKAGE_luci-app-v2ray-pro #V2Ray透明代理
+          CONFIG_PACKAGE_luci-app-v2ray-plugin
           CONFIG_PACKAGE_luci-app-webadmin=y  #Web管理页面设置
           CONFIG_PACKAGE_luci-app-wrtbwmon=y  #实时流量监测
           CONFIG_PACKAGE_luci-app-nlbwmon  #网络带宽监视器
